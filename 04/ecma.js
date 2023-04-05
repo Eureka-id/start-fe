@@ -42,3 +42,9 @@ function sum(x, y, z) {
   }
   const numbers = [1, 2, 3];
   console.log(sum(...numbers));
+
+  //구조 분해 할당
+let arr = ["John", "Smith"];
+let [firstName, surname] = arr;
+alert(firstName); 
+alert(surname);
